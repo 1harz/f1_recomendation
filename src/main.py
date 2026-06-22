@@ -40,6 +40,14 @@ Bem-vindo à documentação oficial do **Sistema de Recomendação Automotiva**!
 
 Esta API utiliza técnicas de Inteligência Artificial baseadas em **Filtragem Colaborativa (Similaridade de Cosseno)** sobre o dataset Amazon Automotive para gerar recomendações personalizadas de peças e acessórios automotivos.
 
+* Nome: Raul Falluh Fragoso de Mendonça
+* Matrícula: 22300926
+* Instituição: Centro Universitário de Brasília
+* Curso: Ciência da Computação
+* Período: 7º Semestre
+* Matéria: Desenvolvimento de sistemas de IA
+* Professor: Fábio Oliveira Guimarães 
+
 ## Principais Funcionalidades
 
 * **Gestão de Usuários**: Cadastre e liste usuários no sistema.
@@ -68,7 +76,7 @@ app = FastAPI(
 def read_root():
     """Retorna uma mensagem de boas-vindas."""
     return {
-        "message": "Welcome to Automotive Recommendation API",
+        "message": "Bem-vindo à documentação oficial do Sistema de Recomendação Automotiva API",
         "version": "1.0.0",
     }
 
